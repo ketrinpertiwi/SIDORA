@@ -180,7 +180,7 @@
 .sidebar-divider {
   height: 1px;
   background: rgba(255,255,255,0.15);
-  margin: var(--spacing-md) 0;
+  margin: 0;
 }
 
 .sidebar-title {
@@ -296,7 +296,7 @@
 .stat-icon.warning {
   background-color: rgba(255, 193, 7, 0.1);
 }
-.stat-icon.warning svg { stroke: #856404; }
+.stat-icon.warning svg { stroke: 
 
 .stat-icon.danger {
   background-color: rgba(220, 53, 69, 0.1);
@@ -348,11 +348,7 @@
   gap: var(--spacing-sm);
 }
 
-.action-buttons .btn {
-  min-height: auto;
-  padding: 0.35rem 0.75rem;
-  font-size: 0.85rem;
-}
+
 
 @media (max-width: 1024px) {
   .dashboard-grid {
